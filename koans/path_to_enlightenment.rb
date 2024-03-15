@@ -2,32 +2,32 @@
 
 $LOAD_PATH << File.dirname(__FILE__)
 
-require 'about_asserts'
-require 'about_true_and_false'
-require 'about_strings'
-require 'about_symbols'
-require 'about_arrays'
-require 'about_array_assignment'
-require 'about_objects'
-require 'about_nil'
-require 'about_hashes'
-require 'about_methods'
+require 'about_asserts' #r
+require 'about_true_and_false' #r
+require 'about_strings' #r
+require 'about_symbols' #r
+require 'about_arrays' #r
+require 'about_array_assignment' #r
+require 'about_objects' #r
+require 'about_nil' #r
+require 'about_hashes' #r
+require 'about_methods' #r
 in_ruby_version("2", "3") do
-  require 'about_keyword_arguments'
+  require 'about_keyword_arguments' #r
 end
-require 'about_constants'
-require 'about_regular_expressions'
-require 'about_control_statements'
-require 'about_triangle_project'
-require 'about_exceptions'
-require 'about_triangle_project_2'
-require 'about_iteration'
-require 'about_blocks'
-require 'about_sandwich_code'
-require 'about_scoring_project'
-require 'about_classes'
-require 'about_open_classes'
-require 'about_dice_project'
+require 'about_constants' #r
+require 'about_regular_expressions' #r
+require 'about_control_statements' #r
+require 'about_triangle_project' #s
+require 'about_exceptions' #r
+require 'about_triangle_project_2' #s
+require 'about_iteration' #r
+require 'about_blocks' #r
+require 'about_sandwich_code' #r
+require 'about_scoring_project' #s
+require 'about_classes' #r
+require 'about_open_classes' #r
+require 'about_dice_project' #s
 require 'about_inheritance'
 require 'about_modules'
 require 'about_scope'
