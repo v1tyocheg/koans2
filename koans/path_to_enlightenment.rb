@@ -28,13 +28,13 @@ require 'about_scoring_project' #s
 require 'about_classes' #r
 require 'about_open_classes' #r
 require 'about_dice_project' #s
-require 'about_inheritance'
-require 'about_modules'
-require 'about_scope'
-require 'about_class_methods'
-require 'about_message_passing'
-require 'about_proxy_object_project'
-require 'about_to_str'
+require 'about_inheritance' #r
+require 'about_modules'  #r
+require 'about_scope' #r
+require 'about_class_methods' #r
+require 'about_message_passing' #r
+require 'about_proxy_object_project' #s
+require 'about_to_str' #r
 in_ruby_version("jruby") do
   require 'about_java_interop'
 end
